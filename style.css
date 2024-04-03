@@ -33,7 +33,7 @@ h1 {
     margin: 0%;
     justify-content: center;
     align-items: center;
-    font-size: 7vmin;
+    font-size: 6vmin;
     display: flex;
     flex-wrap: nowrap;
     white-space: nowrap;
@@ -47,7 +47,7 @@ nav>div {
 }
 
 #dropdown {
-    width: 10%;
+    width: 10vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -112,10 +112,10 @@ a:hover {
 #formHeader {
     background-color: #2E6E65;
     border-radius: 5vw;
-    width: 10%;
+    width: 15vmin;
     min-width: fit-content;
     padding: 5px;
-    height: 30%;
+    height: 6vmin;
     min-height: 25px;
     color: #F4F7ED;
     display: flex;
@@ -123,6 +123,7 @@ a:hover {
     align-items: center;
     border: #2B3752 0.2em solid;
     transition: 1s;
+    font-size: 2vmin;
 }
 
 #formHeader:hover,
@@ -176,9 +177,9 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10vh 10vw;
-    width: 18vw;
-    height: 20vh;
+    margin: 10vmax 10vmax;
+    width: 40vmin;
+    height: 40vmin;
     min-width: fit-content;
     min-height: fit-content;
     text-align: center;
@@ -207,8 +208,8 @@ h2 {
     transform: rotateY(180deg);
     background-color: #F4F7ED;
     color: #2B3752;
-    min-width: 35vw;
-    min-height: 30vh;
+    min-width: 40vmin;
+    min-height: 40vmin;
     display: flex;
     flex-direction: column;
 }
@@ -269,3 +270,6 @@ footer>div>p>a {
 footer>div {
     width: 30%;
 }
+
+/* bugs to fix: text comes out of cards
+                footer is ugly */
