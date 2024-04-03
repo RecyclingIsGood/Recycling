@@ -33,10 +33,10 @@ h1 {
     margin: 0%;
     justify-content: center;
     align-items: center;
-    font-size: 6vmin;
+    font-size: xx-large;
     display: flex;
-    flex-wrap: nowrap;
-    white-space: nowrap;
+    flex-wrap: wrap;
+
 }
 
 
@@ -124,6 +124,7 @@ a:hover {
     border: #2B3752 0.2em solid;
     transition: 1s;
     font-size: 2vmin;
+    white-space: nowrap;
 }
 
 #formHeader:hover,
@@ -178,8 +179,8 @@ h2 {
     align-items: center;
     justify-content: center;
     margin: 10vmax 10vmax;
-    width: 40vmin;
-    height: 40vmin;
+    width: 50vmin;
+    height: 50vmin;
     min-width: fit-content;
     min-height: fit-content;
     text-align: center;

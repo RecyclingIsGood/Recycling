@@ -130,3 +130,6 @@ for (let i = 0; i < menuLinks.length; i++) {
         title.textContent = menuLinks[i].textContent
     })
 }
+
+
+console.log('version .5')
