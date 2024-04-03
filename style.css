@@ -16,14 +16,14 @@ nav {
     width: 100%;
     position: sticky;
     top: 0px;
-    height: 10vh;
+    height: 13vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
     z-index: 9999;
-    min-height: 50px;
+    min-height: 70px;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
 
 
 nav>div {
-    min-height: 50px;
+    min-height: 70px;
 }
 
 #dropdown {
@@ -142,6 +142,8 @@ a:hover {
 h2 {
     opacity: 0;
     margin: 0;
+    position: relative;
+    top: -10vh;
 }
 
 
@@ -173,12 +175,13 @@ h2 {
 .front,
 .back,
 #howOptions>div,
-#forOptions>div {
+#forOptions>div,
+#chooseCard>.card {
 
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10vmax 10vmax;
+    margin: 10vmax 6vmax;
     width: 50vmin;
     height: 50vmin;
     min-width: fit-content;
@@ -237,15 +240,40 @@ h2 {
 
 /* google form */
 
+
+
 iframe {
     position: relative;
     margin-top: 10vh;
 
 }
 
-#googleForm {
+#formGeneral {
     display: flex;
     justify-content: center;
+
+}
+
+#formPWHS {
+    display: none;
+    justify-content: center;
+}
+
+#chooseCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#choose {
+    max-height: 50vh;
+}
+
+.switch {
+    font-size: 4vw;
 
 }
 

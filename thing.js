@@ -1,6 +1,8 @@
 // flipping cards
 
-const Options = document.querySelectorAll("#whyOptions > div > div, #howOptions > div > div, #forOptions > div > div")
+const Options = document.querySelectorAll("#whyOptions > div > div, #howOptions > div > div, #forOptions > div > div, #chooseCard>div>div")
+const forms = document.querySelectorAll('#formGeneral, #formPWHS')
+
 
 for (let i = 0; i < Options.length; i++) {
     Options[i].addEventListener("click", function () {
@@ -11,6 +13,17 @@ for (let i = 0; i < Options.length; i++) {
         else if (Options[i].classList.contains('back')) {
             Options[i].style.transform = 'rotateY(180deg)'
             Options[i - 1].style.transform = 'rotateY(360deg)'
+        }
+
+        if (Options[i].classList.contains('switch')) {
+            if (Options[i].classList.contains('front')) {
+                forms[1].style.display = 'flex'
+                forms[0].style.display = 'none'
+            }
+            else if (Options[i].classList.contains('back')) {
+                forms[0].style.display = 'flex'
+                forms[1].style.display = 'none'
+            }
         }
     })
 }
