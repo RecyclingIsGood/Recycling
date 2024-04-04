@@ -278,7 +278,7 @@ iframe {
 
 .iframeContainer {
     position: relative;
-    width: 70vmin;
+    width: 100vmin;
     height: 0;
     padding-bottom: 75vmin;
     margin-bottom: 15vmin;
