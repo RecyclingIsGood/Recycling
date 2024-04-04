@@ -19,10 +19,12 @@ for (let i = 0; i < Options.length; i++) {
             if (Options[i].classList.contains('front')) {
                 forms[1].style.display = 'flex'
                 forms[0].style.display = 'none'
+
             }
             else if (Options[i].classList.contains('back')) {
                 forms[0].style.display = 'flex'
                 forms[1].style.display = 'none'
+
             }
         }
     })
