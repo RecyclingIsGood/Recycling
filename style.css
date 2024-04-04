@@ -244,7 +244,7 @@ h2 {
 
 iframe {
     position: relative;
-    margin-top: 7.5vmin;
+    margin-top: 9vmin;
 }
 
 #formGeneral {
@@ -280,7 +280,7 @@ iframe {
     position: relative;
     width: 50%;
     height: 0;
-    padding-bottom: 70vmin;
+    padding-bottom: 75vmin;
     margin-bottom: 15vmin;
 }
 
