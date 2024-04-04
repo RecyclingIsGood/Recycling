@@ -147,4 +147,4 @@ for (let i = 0; i < menuLinks.length; i++) {
 }
 
 
-console.log('version .6')
+console.log('version .7')
