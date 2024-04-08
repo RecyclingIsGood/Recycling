@@ -4,6 +4,7 @@ for icons flaticon.com*/
 body {
     margin: 0%;
     background-color: #F4F7ED;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -234,10 +235,15 @@ h2 {
     transform: rotateY(180deg);
     background-color: #F4F7ED;
     color: #2B3752;
-    min-width: 40vmin;
-    min-height: 40vmin;
+
     display: flex;
     flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    .back {
+        font-size: 0.7rem;
+    }
 }
 
 .card:hover {
@@ -345,4 +351,14 @@ footer>div {
 
 #column {
     columns: 2;
+}
+
+@media only screen and (max-width: 600px) {
+    #column {
+        columns: auto;
+    }
+
+    footer {
+        font-size: 0.7rem !important;
+    }
 }
