@@ -104,6 +104,7 @@ li {
 .menuLinks:hover,
 li:hover {
     color: #2B3752 !important;
+    transform: scale(1.1);
 }
 
 
