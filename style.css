@@ -244,6 +244,10 @@ h2 {
     .back {
         font-size: 0.7rem;
     }
+
+    .iframeContainer {
+        padding-bottom: 150vmin !important;
+    }
 }
 
 .card:hover {
