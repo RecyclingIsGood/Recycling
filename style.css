@@ -102,7 +102,7 @@ li {
 
 .menuLinks:hover,
 li:hover {
-    color: #2B3752;
+    color: #2B3752 !important;
 }
 
 
@@ -144,6 +144,15 @@ a:hover {
 
 /* general */
 
+p {
+    margin-bottom: 0;
+}
+
+hr {
+    height: 0.1rem;
+    background-color: #2B3752;
+}
+
 h2 {
     opacity: 0;
     margin: 0;
@@ -161,6 +170,7 @@ h2 {
 
 .cardLinks {
     color: #4CAF50 !important;
+    display: block;
 }
 
 .cardLinks:hover {
@@ -230,11 +240,15 @@ h2 {
     flex-direction: column;
 }
 
-.card:hover,
-#dropdown:hover {
+.card:hover {
     cursor: pointer;
+    transform: scale(1.02);
 }
 
+#dropdown:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
 
 .front>img {
