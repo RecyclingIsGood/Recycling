@@ -100,6 +100,11 @@ li {
 }
 
 
+.menuLinks:hover,
+li:hover {
+    color: #2B3752;
+}
+
 
 a:hover {
     cursor: pointer;
@@ -154,6 +159,13 @@ h2 {
 
 }
 
+.cardLinks {
+    color: #4CAF50 !important;
+}
+
+.cardLinks:hover {
+    font-size: larger;
+}
 
 
 /* Section 1 why */
@@ -315,4 +327,8 @@ footer>div>p>a {
 
 footer>div {
     width: 30%;
+}
+
+#column {
+    columns: 2;
 }
